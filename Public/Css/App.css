@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #EFF7FF;
+    color: #231123;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-empleados{
+    height: auto !important;
+    margin-top: 3em;
+}
+
+.btn{
+    font-size: 1.2em;
+    color: #EFF7FF;
+    padding: 0.6em;
+    border-radius: 5px;
+    margin: 0.6em;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #558C8C;
+    transition: 300ms;
+}
+
+.btn-gestionar{
+    background-color: #82204A;
+}
+
+.btn-nuevo{
+    background-color: #417B5A;
+    position: relative;
+    float: right;
+    display: flex;
+}
+
+.btn-guardar{
+    background-color: #4B3F72;
+}
+.btn-guardar:hover{
+    background-color: #1F2041;
+}
+
+#info-empleados{
+    max-width: 1000px;
+    width: 100%;
+}
+
+.tabla-empleados{ 
+    margin-top: 2em;
+    width: 90%;
+}
+
+.tabla-empleados td,tr {
+    margin: 10px !important;
+    padding: 10px !important;
+}
+
+.tabla-empleados tr:hover {
+    background-color: #F5F7DC;
+}
+
+.center{
+    text-align: center;
+}
+.pointer{
+    cursor: pointer;
+}
